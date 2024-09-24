@@ -38,22 +38,17 @@ public:
 int main() {
 
     // Before C++17, we had to explicitly specify the type of the class
+    
     std::pair<int, int> p1(1, 2);
-    // Now we can use CTAD to deduce the type of the class
     std::pair p2(1, 2);
-    // We can also use CTAD to deduce the type of the class
     std::pair p3(1, 2.2);
-    // We can also use CTAD to deduce the type of the class
     std::pair p4('a', 'b');
-
-    // all of the above are the same, and the compiler will deduce the type of the class
-    // and we can also do this for user defined types
+    // all of the above do the same thingy, and the compiler will deduce the type of the class
+    // and we can also do this for user defined types, or containiers
     std::vector v1{1, 2, 3, 4, 5};
-
-    // Earlier, we had to explicitly specify the type of the class
     std::complex<double> c1(1.0, 2.0);
-    // Now
     std::complex c2 = {1.0, 2.0};
+
 
 
 
