@@ -2,6 +2,15 @@
 #include <string>
 #include <string_view>
 
+// The friend function provides us with a way to access private 
+// data but it also has its demerits
+
+
+// A friend function is able to access members without the need of inheriting the class.
+// acts as a bridge between two classes by accessing their private data.
+// It can be used to increase the versatility of overloaded operators.
+// Friend functions cannot do any run-time polymorphism in their members.
+// Friendship is not inherited
 
 class Account{
     private:
