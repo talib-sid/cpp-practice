@@ -72,7 +72,29 @@ int main(){
     myLL = insert(myLL,1,4);
     print_ll(myLL);
 
-
-
     return 0;
 }
+
+
+
+/*
+Swap 2 numbers using XOR
+
+~ x = x xor y
+~ y = x xor y
+~ x = x xor y
+
+x = x xor y = x_1
+
+y =  x_1 xor y
+y = (x xor y) xor y
+y = (x xor y xor y)
+y = x = y_1
+
+x = (x xor y) y_1 
+x = (x xor y xor x)
+x = (x xor x xor y)
+x = y
+
+
+*/

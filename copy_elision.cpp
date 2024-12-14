@@ -34,7 +34,6 @@ S f2(){
     s.someOp();
     return s;
 }
-
 int main(){
     // here, the copy constructor is not called, because copy-elision happens
     S temp1 = f1();

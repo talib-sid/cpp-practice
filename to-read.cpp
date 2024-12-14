@@ -6,9 +6,14 @@ int main(){
     // includes the articles/blogs/topics to read and cover
 
     /*
+        OS
+        https://dysphoria.net/OperatingSystems1/
+
         Memory Management and Low Level
         https://medium.com/@gealleh/mastering-memory-management-in-c-32f5087a5345
         https://medium.com/@sudojha/from-code-to-click-how-your-c-c-program-turns-into-an-executable-masterpiece-b5027efd18c6
+        https://dysphoria.net/OperatingSystems1/4_allocation_list.html
+
 
         Pointers
         https://medium.com/@toramanbatur/eliminating-cyclic-dependency-in-c-solving-object-destruction-issues-with-weak-pointers-6bc495ebdae6
